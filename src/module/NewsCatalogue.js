@@ -4,10 +4,12 @@ import NewsElement from './NewsElement';
 
 // declaring constant for the news catalogue
 const NewsCatalogue = () => {
+    var topic;
+    topic = "sports";
     const [articles, setArticles] = useState([])
     useEffect(() => {
         const getArticles = async () => {
-            const response = await axios.get('https://newsapi.org/v2/everything?q=Apple&from=2023-06-18&sortBy=popularity&apiKey=28463e4260e24672ad1f981f9c02e1fb')
+            const response = await axios.get('https://newsapi.org/v2/everything?q=${topic}&apiKey=28463e4260e24672ad1f981f9c02e1fb')
             setArticles(response.data.articles)
             // Print the data
             console.log(response)

@@ -2,16 +2,18 @@
 .newswebsite {
     justify-content: center;
     display: flex;
+    background-color: #87CEFA;
 }
 
 .newselement {
     padding: 25px;
-    border: 2px solid;
+    border: 1px solid;
     width: 400px;
     margin-top: 10px;
     margin-bottom: 20px;
+    background-color: #FFFF;
 }
 
 .newsimage {
-    width: 500px;
+    width: 400px;
 }
