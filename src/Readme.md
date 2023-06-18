@@ -1,0 +1,1 @@
+This project is JavaScript based, News Website application implementation. It is a FrontEnd based project with the implementation of News API integration. The project is built using JavaScript, React & News API.
