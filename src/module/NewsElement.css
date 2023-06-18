@@ -1,0 +1,17 @@
+
+.newswebsite {
+    justify-content: center;
+    display: flex;
+}
+
+.newselement {
+    padding: 25px;
+    border: 2px solid;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.newsimage {
+    width: 500px;
+}
