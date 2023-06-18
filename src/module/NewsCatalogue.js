@@ -18,11 +18,16 @@ const NewsCatalogue = () => {
         <div>
             {articles.map(article => {
                 return(
-                    <NewsElement>
-                        
-                    </NewsElement>
+                    <NewsElement
+                        title={article.title}
+                        description={article.description}
+                        url={article.url}
+                        urlToImage={article.urlToImage}
+                    />
                 )
             })}
         </div>
     )
 }
+
+export default NewsCatalogue;
